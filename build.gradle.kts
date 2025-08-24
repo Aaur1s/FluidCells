@@ -89,13 +89,15 @@ repositories {
 
 dependencies {
     minecraft("net.minecraftforge:forge:$minecraftVersion-$forgeVersion")
-    implementation(fg.deobf("maven.modrinth:enablemultiplayermode:1.0.0+Forge1.16.X"))
 
     implementation(fg.deobf("maven.modrinth:jei:$jeiVersion"))
     implementation(fg.deobf("maven.modrinth:architectury-api:1.32.68+forge"))
     implementation(fg.deobf("curse.maven:kubejs-238086:3647098"))
     implementation(fg.deobf("curse.maven:rhino-416294:3525704"))
 
+    runtimeOnly(fg.deobf("maven.modrinth:enablemultiplayermode:1.0.0+Forge1.16.X"))
+    runtimeOnly(fg.deobf("curse.maven:cyclops-core-232758:3900678"))
+    runtimeOnly(fg.deobf("curse.maven:iconexporter-327048:3346632"))
     runtimeOnly(fg.deobf("maven.modrinth:mekanism:10.1.2.457"))
 
     annotationProcessor("org.spongepowered:mixin:0.8.5:processor")
@@ -127,7 +129,7 @@ tasks {
         group = "publishing"
         apiToken = project.properties["curseforge.token"].toString()
 
-        upload(1330425, jar) {
+        upload(648536, jar) {
             releaseType = "release"
             changelog = readCurrentVersionChangelog()
             changelogType = "markdown"
