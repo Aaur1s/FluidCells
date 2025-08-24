@@ -6,11 +6,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 ## [1.16.5-2.0] - 2025-08-24
-Breaking changes! Mod has been rewritten, 1.0 -> 2.0 migration not available
-
 ### Added
 
-- Fluid cells!
+- Universal(fractional) cells
+- Custom cells with kubejs integration
+
+### Changed
+
+- Fluid cells were rewritten with more flexibility
+
+### Fixed
+
+- dupe of cells with modded tanks
 
 ## [1.16.5-1.0] - 2025-08-20
 
