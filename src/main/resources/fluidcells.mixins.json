@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "package": "dev.aaur1s.minecraft.fluidcells.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "minVersion": "0.8",
+  "refmap": "fluidcells.mixins.refmap.json",
+  "client": [
+  ],
+  "mixins": [
+    "kubejs.ItemBuilderMixin",
+    "minecraft.PlayerInteractionManagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
