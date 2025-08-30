@@ -39,7 +39,7 @@ open class FluidCellItemBase(
     val containerSizeMb: Int,
     val isFractional: Boolean,
     itemProperties: Properties = Properties().stacksTo(64).tab(ItemGroup.TAB_MISC)
-) : Item(itemProperties) {
+) : BucketItem({ Fluids.EMPTY }, itemProperties) {
 
     fun Block.fluidCapability(world: World, pos: BlockPos, direction: Direction) = when (this) {
         is IFluidBlock -> FluidBlockWrapper(this, world, pos)

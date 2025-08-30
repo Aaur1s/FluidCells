@@ -8,6 +8,7 @@
   ],
   "mixins": [
     "kubejs.ItemBuilderMixin",
+    "minecraft.FluidUtilMixin",
     "minecraft.PlayerInteractionManagerMixin"
   ],
   "injectors": {
