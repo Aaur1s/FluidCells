@@ -125,6 +125,10 @@ tasks {
         }
     }
 
+    jar {
+        finalizedBy("reobfJar")
+    }
+
     register<TaskPublishCurseForge>("curseforge") {
         group = "publishing"
         apiToken = project.properties["curseforge.token"].toString()
