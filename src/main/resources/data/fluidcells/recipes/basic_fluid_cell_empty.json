@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "fluidcells:basic_fluid_cell"
+    }
+  ],
+  "result": {
+    "item": "fluidcells:basic_fluid_cell",
+    "count": 1
+  }
+}

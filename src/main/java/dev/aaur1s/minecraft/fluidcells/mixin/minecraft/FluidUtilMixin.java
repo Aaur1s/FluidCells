@@ -30,7 +30,7 @@ public abstract class FluidUtilMixin {
 
                     // We are acting on a COPY of the stack, so performing changes is acceptable even if we are simulating.
                     // Edit(Aaur1s): It's NOT fine, fluidDestination isn't copy so real transfer on simulate is dupe
-                    FluidStack transfer = FluidUtil.tryFluidTransfer(fluidDestination, containerFluidHandler, maxAmount, doDrain && container.getItem() instanceof FluidCellItemBase);
+                    FluidStack transfer = FluidUtil.tryFluidTransfer(fluidDestination, containerFluidHandler, maxAmount, doDrain);
                     if (transfer.isEmpty())
                         return FluidActionResult.FAILURE;
 

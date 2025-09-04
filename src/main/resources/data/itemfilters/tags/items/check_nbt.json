@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "fluidcells:basic_fluid_cell",
+    "fluidcells:universal_basic_fluid_cell"
+  ]
+}
