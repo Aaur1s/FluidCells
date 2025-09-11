@@ -1,10 +1,9 @@
 {
-  "loader": "forge:bucket",
-  "fluid": "minecraft:empty",
+  "loader": "fluidcells:substance_container",
   "parent": "forge:item/default",
   "textures": {
     "base": "fluidcells:item/basic_fluid_cell",
-    "fluid": "fluidcells:item/mask/basic_fluid_cell",
+    "mask": "fluidcells:item/mask/basic_fluid_cell",
     "cover": "fluidcells:item/basic_fluid_cell"
   }
 }

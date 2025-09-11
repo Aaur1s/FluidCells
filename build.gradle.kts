@@ -94,12 +94,12 @@ dependencies {
     implementation(fg.deobf("maven.modrinth:architectury-api:1.32.68+forge"))
     implementation(fg.deobf("curse.maven:kubejs-238086:3647098"))
     implementation(fg.deobf("curse.maven:rhino-416294:3525704"))
+    implementation(fg.deobf("maven.modrinth:mekanism:10.1.2.457"))
 
     runtimeOnly(fg.deobf("maven.modrinth:enablemultiplayermode:1.0.0+Forge1.16.X"))
     runtimeOnly(fg.deobf("curse.maven:the-one-probe-245211:3752096"))
     runtimeOnly(fg.deobf("curse.maven:cyclops-core-232758:3900678"))
     runtimeOnly(fg.deobf("curse.maven:iconexporter-327048:3346632"))
-    runtimeOnly(fg.deobf("maven.modrinth:mekanism:10.1.2.457"))
     runtimeOnly(fg.deobf("curse.maven:scalable-cats-force-320926:4059962"))
     runtimeOnly(fg.deobf("curse.maven:largefluidtank-291006:3838627"))
     runtimeOnly(fg.deobf("curse.maven:titanium-287342:5174863"))
